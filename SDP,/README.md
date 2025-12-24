@@ -2,9 +2,9 @@
 
 ## 1. Informasi Penyusun
 
-- **Nama:** `[NAMA LENGKAP MAHASISWA]`
-- **NIM:** `[NOMOR INDUK MAHASISWA]`
-- **Program Studi:** `[PROGRAM STUDI]`
+- **Nama:** `[Gede Alit Putrawan]`
+- **NIM:** `[2515091081]`
+- **Program Studi:** `[Sistem Informasi]`
 - **Mata Kuliah:** Statistika dan Probabilitas
 
 ---
@@ -14,7 +14,7 @@
 Pada bagian ini, jelaskan secara singkat dataset yang Anda gunakan. Apa saja variabel di dalamnya? Apa tujuan dari analisis yang Anda lakukan?
 
 *Contoh:*
-> Dataset yang digunakan adalah data `...` yang berisi informasi tentang `...`. Variabel kunci dalam dataset ini meliputi `variabel_A`, `variabel_B`, dan `variabel_C`. Tujuan dari proyek ini adalah untuk memahami karakteristik data melalui statistik deskriptif, menguji hubungan antara `variabel_A` dan `variabel_B` melalui analisis korelasi, serta memprediksi `variabel_C` menggunakan `variabel_A` sebagai prediktor melalui analisis regresi.
+> Dataset yang digunakan adalah data data_startup_saas.csv yang berisi informasi yang dapat dimanfaatkan untuk analisis bisnis , antara lain pendapatan tahunan perusahaan dan biaya langganan layanan. Variabel kunci dalam dataset ini meliputi `Pendapatan_Tahunan_Miliar_IDR`, `variabel_B`, dan `variabel_C`. Tujuan dari proyek ini adalah untuk memahami karakteristik data melalui statistik deskriptif, menguji hubungan antara `variabel_A` dan `variabel_B` melalui analisis korelasi, serta memprediksi `variabel_C` menggunakan `variabel_A` sebagai prediktor melalui analisis regresi.
 
 ---
 
@@ -46,11 +46,22 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 
 ### 5.1. Statistik Deskriptif
 - **Ukuran Pemusatan (Mean, Median, Modus):**
-  - *Tabel atau ringkasan...*
+  - Tabel atau ringkasan
+  - mean = 31.8831846153846
+  - median = 31.305
+  - modus = 1.87
   - *Interpretasi:* Jelaskan apa arti dari nilai-nilai tersebut terkait dengan data Anda.
+  - berdasarkan hasil statistik deksriptif: Pendapatan_Tahunan_Miliar_IDR maka
+  - mean = 31.88 : ni berarti pendapatan tahunan rata-rata dari 650 observasi (obs.) adalah 31.88 satuan. Nilai ini sensitif         terhadap outlier (data ekstrem).
+  - median = 31.30 : Jika semua pendapatan tahunan diurutkan, setengah (50%) dari perusahaan/individu memiliki pendapatan di bawah 31.3 satuan, dan setengahnya lagi memiliki pendapatan di atas 31.3 satuan.
+  - modus = 1.87 : Ini adalah titik pendapatan yang paling sering dicapai oleh responden. Artinya, sebagian besar responden/perusahaan memiliki pendapatan tahunan yang sangat rendah, yaitu di kisaran 1.87 Miliar IDR. Ini adalah puncak paling padat (densitas) dari data.
 - **Ukuran Sebaran (Standar Deviasi, Range, Kuartil):**
   - *Tabel atau ringkasan...*
+   Standar Deviasi: 19.785620465392
+   Range = 1 - 66,89 = 65,89
+   kuartil : min.= 1.00, Q1 = 14,31, median/Q2= 31.30, mean= 31.88, Q3= 49.04, max.= 66.89
   - *Interpretasi:* Jelaskan seberapa menyebar data Anda berdasarkan nilai-nilai ini.
+    Distribusi pendapatan tahunan startup SaaS, yang dicatat dalam kolom Pendapatan_Tahunan_Miliar_IDR, menunjukkan tingkat keragaman yang tinggi.Tingginya standar deviasi 19.785620465392  merupakan bukti kuat bahwa nilai pendapatan tersebar lebar, data tidak hanya terkonsentrasi di satu titik sentral, melainkan menyebar jauh dari nilai rata-ratanya.Fakta bahwa rentang data (range) adalah 65.89 diperoleh dari selisih antara batas bawah (1.00 dan batas atas (66.89) jelas menunjukkan variasi ekstrem antara startup yang paling tidak dan paling sukses secara pendapatan.Data kuartil menggarisbawahi ketidakmerataan ini: terdapat 25% startup yang hanya berpendapatan di bawah 14.31 (Q1), sementara 25% startup teratas berhasil melewati ambang 49.04 (Q3). Ini mengarah pada kesimpulan bahwa pendapatan tahunan sangat bervariasi dan tidak terdistribusi secara homogen.
 - **Visualisasi (Histogram/Boxplot):**
   - *Sematkan gambar plot dari folder /results...*
   - *Interpretasi:* Jelaskan wawasan apa yang Anda dapatkan dari bentuk distribusi data.
