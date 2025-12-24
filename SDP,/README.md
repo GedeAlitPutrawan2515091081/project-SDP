@@ -51,6 +51,7 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
   - median = 31.305
   - modus = 1.87
   - *Interpretasi:* Jelaskan apa arti dari nilai-nilai tersebut terkait dengan data Anda.
+  - 
   - berdasarkan hasil statistik deksriptif: Pendapatan_Tahunan_Miliar_IDR maka
   - mean = 31.88 : ni berarti pendapatan tahunan rata-rata dari 650 observasi (obs.) adalah 31.88 satuan. Nilai ini sensitif         terhadap outlier (data ekstrem).
   - median = 31.30 : Jika semua pendapatan tahunan diurutkan, setengah (50%) dari perusahaan/individu memiliki pendapatan di bawah 31.3 satuan, dan setengahnya lagi memiliki pendapatan di atas 31.3 satuan.
