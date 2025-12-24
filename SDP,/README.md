@@ -86,13 +86,20 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
     
   - *Interpretasi:* Apakah titik-titik data mengikuti garis lurus? Apa artinya?
 
+    Berdasarkan Q–Q Plot, titik-titik data tidak mengikuti garis lurus secara konsisten dan menunjukkan penyimpangan yang jelas, terutama pada bagian ekor distribusi. Pola lengkungan yang terbentuk mengindikasikan bahwa data tidak berdistribusi normal. Hal ini menunjukkan adanya pelanggaran asumsi normalitas pada variabel Pendapatan_Tahunan_Miliar_IDR, yang kemungkinan disebabkan oleh distribusi data yang menceng ke kanan (right-skewed) akibat adanya nilai pendapatan yang sangat tinggi.
+
 ### 5.3. Analisis Korelasi
 - **Nilai Koefisien Korelasi:**
-  - *Nilai r...*
+  - *Nilai r* = 0,996
   - *Interpretasi:* Seberapa kuat dan apa arah hubungan antara dua variabel yang Anda uji? (misalnya, korelasi positif kuat, negatif lemah, atau tidak ada korelasi).
+
+    Hasil analisis korelasi menunjukkan adanya hubungan yang kuat dan searah (positif) antara Pendapatan Tahunan (Miliar IDR) dan Biaya Akuisisi Pelanggan (Juta IDR). Artinya, semakin tinggi pendapatan tahunan perusahaan, maka semakin besar pula biaya yang dikeluarkan untuk akuisisi pelanggan. Hubungan ini bersifat kuat dan signifikan secara statistik (p-value ≤ 0,05), sehingga dapat disimpulkan bahwa terdapat keterkaitan yang nyata antara kedua variabel tersebut.
 - **Visualisasi (Scatter Plot):**
   - *Sematkan gambar plot dari folder /results...*
+  [Plot](results/Rplot4.jpeg)
   - *Interpretasi:* Apakah pola pada scatter plot mendukung hasil koefisien korelasi?
+ 
+    Pola pada scatter plot menunjukkan bahwa titik-titik data cenderung membentuk pola linear menaik yang jelas, di mana peningkatan Pendapatan Tahunan (Miliar IDR) diikuti oleh peningkatan Biaya Akuisisi Pelanggan (Juta IDR). Garis tren linear yang mengarah ke atas memperkuat adanya hubungan positif yang kuat antara kedua variabel. Dengan demikian, pola visual pada scatter plot konsisten dan mendukung hasil koefisien korelasi yang menunjukkan korelasi positif kuat.
 
 ### 5.4. Analisis Regresi
 - **Model Regresi:**
