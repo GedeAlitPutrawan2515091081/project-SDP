@@ -82,7 +82,7 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
     
 - **Plot Q-Q:**
   - *Sematkan gambar plot dari folder /results...*
-     [Histogram Pendapatan Tahunan](results/Rplot3.JPEG)
+     [Histogram Pendapatan Tahunan](results/Rplot3.jpegj)
     
   - *Interpretasi:* Apakah titik-titik data mengikuti garis lurus? Apa artinya?
 
