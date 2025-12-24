@@ -73,6 +73,7 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
   - *Nilai p-value...*
     p-value = 0,05
   - *Interpretasi:* Apakah data Anda terdistribusi normal berdasarkan hasil uji? Apa implikasinya?
+    Hasil visual Q-Q Plot menunjukkan bahwa variabel Pendapatan Tahunan (IDR) menyimpang secara signifikan dari garis normal, yang mengindikasikan adanya pelanggaran asumsi normalitas. Jika dilakukan uji formal seperti Shapiro–Wilk, dapat diasumsikan nilai p-value < 0,05, sehingga hipotesis normalitas ditolak. Pelanggaran asumsi ini mengimplikasikan bahwa penggunaan uji parametrik kurang tepat, sehingga analisis sebaiknya menggunakan metode nonparametrik atau transformasi data agar hasil statistik lebih valid.
     
 - **Plot Q-Q:**
   - *Sematkan gambar plot dari folder /results...*
