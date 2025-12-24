@@ -82,7 +82,7 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
     
 - **Plot Q-Q:**
   - *Sematkan gambar plot dari folder /results...*
-     [gambar plot](results/Rplot3.jpegj)
+     [gambar plot](results/Rplot3.jpeg)
     
   - *Interpretasi:* Apakah titik-titik data mengikuti garis lurus? Apa artinya?
 
