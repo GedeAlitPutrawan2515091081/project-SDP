@@ -120,7 +120,7 @@ Nilai slope menunjukkan bahwa setiap kenaikan 1 miliar IDR pada Pendapatan_Tahun
  
     Nilai R-squared sebesar 0,991 mengindikasikan bahwa model regresi mampu menjelaskan sekitar 99,1% variasi perubahan pada variabel dependen, yaitu Biaya Akuisisi Pelanggan. Hal ini menunjukkan bahwa Pendapatan Tahunan memiliki kontribusi yang sangat dominan dalam menjelaskan perubahan biaya akuisisi pelanggan pada data yang dianalisis. Dengan kata lain, hubungan yang terbentuk antara kedua variabel dalam model ini sangat kuat, sehingga model regresi dapat dikatakan memiliki tingkat ketepatan yang tinggi. Sementara itu, sekitar 0,9% variasi sisanya dipengaruhi oleh faktor-faktor lain yang tidak dimasukkan ke dalam model, seperti strategi pemasaran, kondisi pasar, atau kebijakan perusahaan.
 - **Visualisasi (Garis Regresi pada Scatter Plot):**
-  - *Sematkan gambar plot dari folder /results...*
+  - [Histogram Pendapatan Tahunan](results/Garisregresi.jpeg)
   - *Interpretasi:* Jelaskan bagaimana garis regresi merepresentasikan hubungan antara variabel.
 
 ---
