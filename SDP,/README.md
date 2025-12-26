@@ -122,10 +122,10 @@ Nilai slope menunjukkan bahwa setiap kenaikan 1 miliar IDR pada Pendapatan_Tahun
 - **Visualisasi (Garis Regresi pada Scatter Plot):**
   - [Histogram Pendapatan Tahunan](results/Garisregresi.jpeg)
   - *Interpretasi:* Jelaskan bagaimana garis regresi merepresentasikan hubungan antara variabel.
-    j
+    Berdasarkan hasil analisis regresi, garis regresi dibentuk oleh persamaan Y = 1,37 + 1,01X dengan nilai Adjusted R-squared sebesar 0,991. Koefisien slope sebesar 1,01 menunjukkan bahwa setiap kenaikan 1 miliar IDR pendapatan tahunan diikuti oleh kenaikan biaya akuisisi pelanggan sekitar 1,01 juta IDR, sehingga hubungan antara kedua variabel bersifat positif dan hampir proporsional. Selain itu, nilai R-squared yang sangat tinggi (99,1%) menunjukkan bahwa garis regresi sangat baik dalam merepresentasikan hubungan antara variabel, karena hampir seluruh variasi biaya akuisisi pelanggan dapat dijelaskan oleh pendapatan tahunan. Hal ini terlihat dari titik-titik data yang berada dekat dengan garis regresi pada grafik.
 
 ---
 
 ## 6. Kesimpulan
 
-Rangkum temuan utama dari analisis Anda dalam beberapa kalimat. Apa wawasan paling penting yang Anda peroleh?
+Berdasarkan hasil analisis statistik deskriptif, pendapatan tahunan startup SaaS menunjukkan tingkat variasi yang sangat tinggi, dengan distribusi yang tidak normal dan cenderung menceng ke kanan. Hal ini mengindikasikan adanya kesenjangan yang besar antara startup dengan pendapatan rendah dan startup dengan pendapatan sangat tinggi. Meskipun nilai rata-rata pendapatan berada di sekitar 31,88 miliar IDR, sebagian besar startup justru terkonsentrasi pada tingkat pendapatan yang jauh lebih rendah, sebagaimana tercermin dari nilai modus dan kuartil bawah. Analisis korelasi dan regresi mengungkapkan hubungan positif yang sangat kuat antara Pendapatan Tahunan dan Biaya Akuisisi Pelanggan. Nilai koefisien korelasi (r = 0,996) serta R-squared sebesar 0,991 menunjukkan bahwa pendapatan tahunan merupakan faktor yang sangat dominan dalam menjelaskan variasi biaya akuisisi pelanggan. Dengan demikian, wawasan paling penting dari analisis ini adalah bahwa pertumbuhan pendapatan startup hampir selalu diiringi oleh peningkatan biaya akuisisi pelanggan, dan hubungan tersebut bersifat konsisten, kuat, serta dapat dimodelkan secara linear dengan tingkat ketepatan yang sangat tinggi.
