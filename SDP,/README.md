@@ -96,7 +96,7 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
     Hasil analisis korelasi menunjukkan adanya hubungan yang kuat dan searah (positif) antara Pendapatan Tahunan (Miliar IDR) dan Biaya Akuisisi Pelanggan (Juta IDR). Artinya, semakin tinggi pendapatan tahunan perusahaan, maka semakin besar pula biaya yang dikeluarkan untuk akuisisi pelanggan. Hubungan ini bersifat kuat dan signifikan secara statistik (p-value ≤ 0,05), sehingga dapat disimpulkan bahwa terdapat keterkaitan yang nyata antara kedua variabel tersebut.
 - **Visualisasi (Scatter Plot):**
   - *Sematkan gambar plot dari folder /results...*
-  [Plot](results/Rplot4.jpeg)
+  [Plot](results/Rplot4.png)
   - *Interpretasi:* Apakah pola pada scatter plot mendukung hasil koefisien korelasi?
  
     Pola pada scatter plot menunjukkan bahwa titik-titik data cenderung membentuk pola linear menaik yang jelas, di mana peningkatan Pendapatan Tahunan (Miliar IDR) diikuti oleh peningkatan Biaya Akuisisi Pelanggan (Juta IDR). Garis tren linear yang mengarah ke atas memperkuat adanya hubungan positif yang kuat antara kedua variabel. Dengan demikian, pola visual pada scatter plot konsisten dan mendukung hasil koefisien korelasi yang menunjukkan korelasi positif kuat.
