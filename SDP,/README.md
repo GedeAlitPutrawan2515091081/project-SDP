@@ -122,6 +122,7 @@ Nilai slope menunjukkan bahwa setiap kenaikan 1 miliar IDR pada Pendapatan_Tahun
 - **Visualisasi (Garis Regresi pada Scatter Plot):**
   - [Histogram Pendapatan Tahunan](results/Garisregresi.jpeg)
   - *Interpretasi:* Jelaskan bagaimana garis regresi merepresentasikan hubungan antara variabel.
+    j
 
 ---
 
