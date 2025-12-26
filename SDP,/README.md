@@ -104,10 +104,21 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 ### 5.4. Analisis Regresi
 - **Model Regresi:**
   - *Persamaan regresi: Y = b0 + b1*X*
+ 
+    Intercept (b₀) = 1,37
+    Koefisien regresi/slope (b₁) = 1,01
+    Y = 1,37 + 1,01X (dengan keterangan X = Pendapatan_Tahunan_Miliar_IDR dan Y = Biaya_Akuisisi_Pelanggan_Juta_IDR)
   - *Interpretasi:* Jelaskan arti dari koefisien intercept (b0) dan slope (b1) dalam konteks data Anda.
+ 
+    Intercept (b₀ = 1,37)
+Nilai intercept menunjukkan bahwa ketika Pendapatan_Tahunan_Miliar_IDR = 0, maka Biaya_Akuisisi_Pelanggan_Juta_IDR diperkirakan sebesar 1,37 juta IDR. Dalam konteks data startup SaaS, nilai ini dapat diartikan sebagai biaya akuisisi dasar yang tetap ada meskipun perusahaan belum menghasilkan pendapatan tahunan, misalnya untuk biaya pemasaran minimum, infrastruktur, atau aktivitas operasional awal.
+Slope (b₁ = 1,01)
+Nilai slope menunjukkan bahwa setiap kenaikan 1 miliar IDR pada Pendapatan_Tahunan_Miliar_IDR akan diikuti oleh kenaikan Biaya_Akuisisi_Pelanggan_Juta_IDR sebesar 1,01 juta IDR. Koefisien ini bernilai positif, sehingga menandakan adanya hubungan searah: semakin tinggi pendapatan tahunan perusahaan, semakin besar biaya yang dikeluarkan untuk mengakuisisi pelanggan.
 - **Evaluasi Model (R-squared):**
-  - *Nilai R-squared...*
+  - *Nilai R-squared* = 0,991
   - *Interpretasi:* Berapa persen variasi dari variabel dependen yang dapat dijelaskan oleh model regresi Anda?
+ 
+    Nilai R-squared sebesar 0,991 mengindikasikan bahwa model regresi mampu menjelaskan sekitar 99,1% variasi perubahan pada variabel dependen, yaitu Biaya Akuisisi Pelanggan. Hal ini menunjukkan bahwa Pendapatan Tahunan memiliki kontribusi yang sangat dominan dalam menjelaskan perubahan biaya akuisisi pelanggan pada data yang dianalisis. Dengan kata lain, hubungan yang terbentuk antara kedua variabel dalam model ini sangat kuat, sehingga model regresi dapat dikatakan memiliki tingkat ketepatan yang tinggi. Sementara itu, sekitar 0,9% variasi sisanya dipengaruhi oleh faktor-faktor lain yang tidak dimasukkan ke dalam model, seperti strategi pemasaran, kondisi pasar, atau kebijakan perusahaan.
 - **Visualisasi (Garis Regresi pada Scatter Plot):**
   - *Sematkan gambar plot dari folder /results...*
   - *Interpretasi:* Jelaskan bagaimana garis regresi merepresentasikan hubungan antara variabel.
